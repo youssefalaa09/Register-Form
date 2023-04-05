@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/img.jpg);
+    background-size: cover;
+}
+.container {
+    border: 2px solid grey;
+    margin: 50px auto;
+    padding: 15px;
+    width: 600px;
+    border-radius: 40px;
+}
+h2 {
+    text-align: center;
+}
+label {
+    width: 20%;
+    display: inline-block;
+}
+input, textarea {
+    width: 75%;
+    padding: 5px;
+}
+button {
+    padding: 5px 15px;
+    margin: 10px auto;
+    display: block;
+}
+.form-group {
+    margin: 15px 0;
+}
